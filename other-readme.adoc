@@ -1,0 +1,22 @@
+= Other readme
+// settings:
+:idprefix:
+ifdef::env-github[]
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:uri-org: https://github.com/the-atari-team
+:uri-repo: {uri-org}/test
+:uri-rel-file-base: link:
+:uri-rel-tree-base: link:
+ifdef::env-site[]
+:uri-rel-file-base: {uri-repo}/blob/master/
+:uri-rel-tree-base: {uri-repo}/tree/master/
+endif::[]
+
+* {uri-rel-file-base}README.adoc[Main readme]
+* {uri-rel-file-base}sub/README.adoc[Subfolders readme]
